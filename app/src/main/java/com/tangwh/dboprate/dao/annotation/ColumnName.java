@@ -12,4 +12,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.FIELD})
 public @interface ColumnName {
     String value();
+	String id_value();
 }
